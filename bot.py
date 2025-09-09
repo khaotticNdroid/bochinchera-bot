@@ -25,5 +25,6 @@ def main():
     app.add_handler(CommandHandler("bochinche", bochinche))
     app.run_polling()
 
-if name == "main":
+if name == "__main__":
+
     main()
